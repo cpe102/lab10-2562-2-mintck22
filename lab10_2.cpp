@@ -11,7 +11,7 @@ int cardScores[] = {0,1,2,3,4,5,6,7,8,9,10,10,10,10};
 int drawCard(void){
 	//Write the function to random the number from 1 to 13 and return that random number.
 
-	int i = rand()%14;
+	int i = rand()%13+1;
 	return cardScores[i];
 
 	
